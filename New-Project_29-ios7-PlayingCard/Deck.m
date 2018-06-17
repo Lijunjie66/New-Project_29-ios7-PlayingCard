@@ -18,7 +18,6 @@
 
 @implementation Deck
 
-//
 - (NSMutableArray *)cards {
     
     // 如果_cards为nil，那么我们就要在堆中分配空间，并赋值给实例变量。保证_cards不会为（nil）什么都没有，至少为空数组
@@ -28,7 +27,7 @@
     return _cards;
 }
 
-// // 将纸牌加到牌堆里，atTop默认为NO
+// 将纸牌加到牌堆里，atTop默认为NO
 - (void)addCard:(Card *)card atTop:(BOOL)atTop {
     if (atTop) {
         // 如果在顶部，那么就插入对象，下标为0，表示是在顶端
