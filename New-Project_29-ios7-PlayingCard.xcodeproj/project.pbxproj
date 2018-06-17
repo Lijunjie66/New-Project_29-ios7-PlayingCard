@@ -14,6 +14,7 @@
 		9C0CD5B320D0408600C3AC4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C0CD5B120D0408600C3AC4D /* LaunchScreen.storyboard */; };
 		9C0CD5B620D0408600C3AC4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0CD5B520D0408600C3AC4D /* main.m */; };
 		9C0CD5BE20D048BE00C3AC4D /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0CD5BD20D048BE00C3AC4D /* Card.m */; };
+		9C0CD5C120D42DFB00C3AC4D /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0CD5C020D42DFB00C3AC4D /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		9C0CD5B520D0408600C3AC4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9C0CD5BC20D048BE00C3AC4D /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		9C0CD5BD20D048BE00C3AC4D /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		9C0CD5BF20D42DFB00C3AC4D /* Deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		9C0CD5C020D42DFB00C3AC4D /* Deck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				9C0CD5B520D0408600C3AC4D /* main.m */,
 				9C0CD5BC20D048BE00C3AC4D /* Card.h */,
 				9C0CD5BD20D048BE00C3AC4D /* Card.m */,
+				9C0CD5BF20D42DFB00C3AC4D /* Deck.h */,
+				9C0CD5C020D42DFB00C3AC4D /* Deck.m */,
 			);
 			path = "New-Project_29-ios7-PlayingCard";
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C0CD5C120D42DFB00C3AC4D /* Deck.m in Sources */,
 				9C0CD5AB20D0408600C3AC4D /* ViewController.m in Sources */,
 				9C0CD5B620D0408600C3AC4D /* main.m in Sources */,
 				9C0CD5A820D0408600C3AC4D /* AppDelegate.m in Sources */,

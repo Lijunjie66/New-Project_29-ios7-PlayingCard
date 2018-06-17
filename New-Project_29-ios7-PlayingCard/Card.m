@@ -70,6 +70,8 @@
     return score;
 }
 */
+
+// 数组内部的纸牌和想要比较的纸牌作比较的方法：
 - (int)match:(NSArray *)otherCards {
     int score = 0;
     
