@@ -9,7 +9,7 @@
 #import "Card.h"
 
 
-// playingCard 是 Card的子类，它专指扑克牌，比如红桃Q、梅花A。。。
+// playingCard 是 Card的子类，它专指扑克牌内容，比如红桃Q、梅花A。。。
 @interface PlayingCard : Card
 
 @property (strong,nonatomic) NSString *suit; // suit 是指花色，例如：方片、梅花、红心。。。
